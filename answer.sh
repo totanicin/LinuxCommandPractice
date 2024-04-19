@@ -71,4 +71,4 @@ $ rm -r ./practice_dir_1/practice_dir_2
 $ vi practice_file1.txt
 
 # 21. `practice_file1.txt`に書き込んだ内容を出力してください。
-$ cat practice_dir_1/ practice_file1.txt
+$ cat practice_dir_1/ practice_file1.txt 
