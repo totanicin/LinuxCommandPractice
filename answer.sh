@@ -29,7 +29,7 @@ $ git push -u origin main
 # ここまでGithubリポジトリ作成時の初期コマンド
 
 # 7. `LinuxCommandPractice`ディレクトリに`.git`ディレクトリが表示されていることを確認してください。
-
+$ ls -a
 
 # 8. `LinuxCommandPractice`ディレクトリ内に`practice_dir_1`ディレクトリを作成してください。
 $ mkdir ~/geekationWorkspace/LinuxCommandPractice/practice_dir_1
@@ -41,7 +41,7 @@ $ ls ~/geekationWorkspace/LinuxCommandPractice
 $ mkdir ./practice_dir_1/practice_dir_2
 
 # 11. `LinuxCommandPractice`ディレクトリ内から**移動せずに**、`practice_dir_1`内に`practice_dir_2`ディレクトリが作成されていることを確認(表示)してください。**但し、相対パスを使用してください。**
-$ ls ./practice_dir_1/practice_dir_2
+$ ls ./practice_dir_1
 
 # 12. `LinuxCommandPractice`ディレクトリ内から**移動せずに**、`./practice_dir_1/practice_dir_2`ディレクトリ内に`practice_file1.txt`、`practice_file2.txt`というファイルを**一回のコマンドで**作成してください。**但し、相対パスを使用してください。**
 $ touch ./practice_dir_1/practice_dir_2/{practice_file1.txt,practice_file2.txt}
